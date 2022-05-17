@@ -7,3 +7,28 @@ h4 {
     margin-left: 20rem;
     letter-spacing: 2.5px;
 }
+
+.button {
+    background-color: goldenrod;
+    position: absolute;
+    width: 77px;
+    height: 53px;
+    border-radius: 5px;
+    bottom: 3rem;
+    right: 5rem;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    border-bottom: 25px solid goldenrod;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    transform: rotate(200deg);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: 42px;
+    margin-left: 5px;
+}
