@@ -46,20 +46,44 @@ h4 {
 }
 
 .input {
-    position: absolute;
-    display: none;
-    bottom: 2.2rem;
-    right: 11.5rem;
+    position: relative;
+    display: inline-block;
+    /* bottom: 2.2rem;
+    right: 11.5rem; */
+    margin-top: 30rem;
+    margin-left: 58rem;
     height: 9rem;
     width: 17rem;
     border: 5px solid rgb(187, 90, 20);
     border-radius: 10px;
     padding: 20px;
-    background: rgb(210, 105, 30);
+    background: #d2691e;
     resize: none;
     font-size: 15px;
-    outline: none;
+    outline: white;
     caret-color: white;
+    animation-name: animation;
+    /* animation-duration: 5s;
+
+    @keyframes animation {
+        from {
+            /* margin-top: 30rem;
+            margin-left: 58rem; */
+            background: #d2691e;
+
+        }
+        to {
+            background: #000000;
+            /* margin-top: 0;
+            margin-left: 0;
+        }
+    } */
     
+}
+
+.grid {
+    display: grid;
+    grid-auto-columns: min-content;
+    grid-auto-rows: min-content;
 }
 
