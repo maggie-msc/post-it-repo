@@ -82,8 +82,12 @@ h4 {
 }
 
 .grid {
+    position: relative;
     display: grid;
     grid-auto-columns: min-content;
     grid-auto-rows: min-content;
 }
 
+footer {
+    position: absolute;
+}
