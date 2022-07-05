@@ -7,7 +7,6 @@ function showInputBox() {
     newInput.name = "input";
     newInput.cols = 30;
     newInput.rows = 10;
-    newInput.style.position = "absolute";
     newInput.style.display = "inline-block";
     footer.appendChild(newInput);
     var button = document.getElementById("button");
